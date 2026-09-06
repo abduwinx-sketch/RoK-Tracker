@@ -26,9 +26,7 @@
   },
   "bundle": {
     "active": true,
-    "targets": [
-      "nsis"
-    ],
+    "targets": ["nsis"],
     "createUpdaterArtifacts": true,
     "icon": [
       "icons/32x32.png",
@@ -37,9 +35,7 @@
       "icons/icon.icns",
       "icons/icon.ico"
     ],
-    "externalBin": [
-      "binaries/scanner_sidecar"
-    ],
+    "externalBin": ["binaries/scanner_sidecar"],
     "resources": {
       "../config.json": "config.json",
       "../deps/inputs": "deps/inputs",
@@ -48,9 +44,9 @@
   },
   "plugins": {
     "updater": {
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDI4QjUyRDkwMjgzQ0VDN0YKUldSLzdEd29rQzIxS05FT2hVL0tZejBFUDc4ZXZ0WlpBNjRySXgyM25JMGdFeXVpWHVGR3VCTEQK",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDI2QURFN0U1MzQwNjhEMzYKUldRMmpRWTA1ZWV0SnMvc0FGeVJJeHR3cTNBQWpuRVo5MlJObmdPVGlHRTJPKzM4N2dzU1J1dy8K",
       "endpoints": [
-        "https://github.com/Nexor256/RoK-Tracker/releases/latest/download/latest.json"
+        "https://github.com/abduwinx-sketch/RoK-Tracker/releases/latest/download/latest.json"
       ],
       "windows": {
         "installMode": "passive"
