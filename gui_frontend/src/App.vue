@@ -251,7 +251,7 @@ const navItems: Array<{
   comingSoon?: boolean
 }> = [
   { to: '/scanner', label: 'Scanners', icon: markRaw(ScanLine) },
-  { to: '/calculator', label: 'Calculators', icon: markRaw(Calculator), comingSoon: false },
+  { to: '/calculator', label: 'Calculators', icon: markRaw(Calculator), comingSoon: true },
   { to: '/history', label: 'History', icon: markRaw(History), comingSoon: false },
   { to: '/settings', label: 'Settings', icon: markRaw(Settings) },
 ]
