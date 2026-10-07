@@ -40,7 +40,7 @@
     "externalBin": [
       "binaries/scanner_sidecar"
     ],
-    "windows": {
+"windows": {
       "nsis": {
         "installerHooks": "./windows/hooks.nsh"
       }
